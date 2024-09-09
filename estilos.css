@@ -1,0 +1,32 @@
+.calculator {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+.calculator-screen {
+    grid-column: span 4;
+    background-color: #fbc5c5;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    background-color: rgb(119, 167, 183);
+    padding: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.zero {
+    grid-column: span 2;
+}
